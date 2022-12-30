@@ -7,14 +7,14 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/blog/",
   lang: "zh-CN",
-  title: "LeetCode-Book",
+  title: "JavaScript Blog",
   // [https://v2.vuepress.vuejs.org/zh/reference/config.html#description]
   description: "积硅步 至千里",
   theme: defaultTheme({
     // Public 文件路径
     logo: "/images/hero.jpg",
     // 你也可以直接将它设置为一个 URL
-    repo: "https://github.com/ChaseWindYoungs/leetcode-book",
+    repo: "https://github.com/ChaseWindYoungs/blog",
     // 顶部导航
     navbar: [
       {
