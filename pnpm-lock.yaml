@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vuepress/client': 2.0.0-beta.60
+  '@vuepress/plugin-medium-zoom': 2.0.0-beta.60
   '@vuepress/plugin-register-components': 2.0.0-beta.60
   '@vuepress/utils': 2.0.0-beta.60
   typescript: ^4.9.4
@@ -14,6 +15,7 @@ dependencies:
 
 devDependencies:
   '@vuepress/client': registry.npmmirror.com/@vuepress/client/2.0.0-beta.60
+  '@vuepress/plugin-medium-zoom': registry.npmmirror.com/@vuepress/plugin-medium-zoom/2.0.0-beta.60
   '@vuepress/plugin-register-components': registry.npmmirror.com/@vuepress/plugin-register-components/2.0.0-beta.60
   vue: registry.npmmirror.com/vue/3.2.45
   vuepress: registry.npmmirror.com/vuepress/2.0.0-beta.60_dlgznq46b2nyvtu5wqobknojfm

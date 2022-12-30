@@ -15,7 +15,7 @@ pageClass: home_page
 
 actions:
   - text: 开启旅程 
-    link: /principle/promise.html
+    link: /principle/deep-js/promise.html
     type: primary
 
 footer: '积硅步 至千里 - ChaseWindYoung'

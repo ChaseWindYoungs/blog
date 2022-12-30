@@ -1,7 +1,8 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
 import { getDirname, path } from "@vuepress/utils";
-import LeetCodeConfig from "../principle/config";
+import principleConfig from "../principle/config";
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/blog/",
@@ -31,7 +32,7 @@ export default defineUserConfig({
     ],
 
     // 侧边栏导航
-    sidebar: Object.assign({}, LeetCodeConfig),
+    sidebar: Object.assign({}, principleConfig),
     sidebarDepth: 0,
   }),
 
@@ -40,6 +41,9 @@ export default defineUserConfig({
     registerComponentsPlugin({
       // 配置项
       componentsDir: path.resolve(__dirname, "./components"),
+    }),
+    mediumZoomPlugin({
+      // 配置项
     }),
   ],
 });

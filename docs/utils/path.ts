@@ -1,5 +1,6 @@
 enum DocPaths {
   Principle = "principle",
+  Vue = "vue",
 }
 
 const getFullPath = function (pathPrefix: string, restPath: string): string {

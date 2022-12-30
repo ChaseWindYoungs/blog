@@ -1,5 +1,4 @@
 # Promise
-
 Promise基本原理
 
 1、Promise 是一个类，在执行这个类的时候，会传入一个执行器，这个执行器会立即执行
@@ -1346,6 +1345,6 @@ MyPromise {
 ## 参考
 
 
-[从一道让我失眠的 Promise 面试题开始，深入分析 Promise 实现细节 - 掘金](https://juejin.cn/post/6945319439772434469)
-
-[【前端】深入promise原理-蒋神带你手写promise_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1V3411Y7d9?p=17&spm_id_from=pageDriver)
+> [从一道让我失眠的 Promise 面试题开始，深入分析 Promise 实现细节 - 掘金](https://juejin.cn/post/6945319439772434469)
+> 
+> [【前端】深入promise原理-蒋神带你手写promise_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1V3411Y7d9?p=17&spm_id_from=pageDriver)
