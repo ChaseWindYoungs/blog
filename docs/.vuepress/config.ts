@@ -13,24 +13,23 @@ export default defineUserConfig({
   theme: defaultTheme({
     // Public 文件路径
     logo: "/images/hero.jpg",
-    // 你也可以直接将它设置为一个 URL
+    // 可以直接将它设置为一个 URL
     repo: "https://github.com/ChaseWindYoungs/blog",
     // 顶部导航
-    // navbar: [
-    //   {
-    //     text: "题解",
-    //     link: "/subjects/string/3.html",
-    //   },
-    //   {
-    //     text: "数据结构",
-    //     link: "/dataStructure/",
-    //   },
-    //   {
-    //     text: "阅读指南",
-    //     link: "/guide/",
-    //   },
-    // ],
-    // test deploy
+    navbar: [
+      {
+        text: "JS算法书",
+        link: "https://chasewindyoungs.github.io/leetcode-book/",
+      },
+      //   {
+      //     text: "数据结构",
+      //     link: "/dataStructure/",
+      //   },
+      //   {
+      //     text: "阅读指南",
+      //     link: "/guide/",
+      //   },
+    ],
 
     // 侧边栏导航
     sidebar: Object.assign({}, principleConfig),
