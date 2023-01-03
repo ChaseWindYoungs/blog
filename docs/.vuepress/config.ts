@@ -30,6 +30,7 @@ export default defineUserConfig({
     //     link: "/guide/",
     //   },
     // ],
+    // test deploy
 
     // 侧边栏导航
     sidebar: Object.assign({}, principleConfig),
