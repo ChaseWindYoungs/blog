@@ -16,20 +16,20 @@ export default defineUserConfig({
     // 你也可以直接将它设置为一个 URL
     repo: "https://github.com/ChaseWindYoungs/blog",
     // 顶部导航
-    navbar: [
-      {
-        text: "题解",
-        link: "/subjects/string/3.html",
-      },
-      {
-        text: "数据结构",
-        link: "/dataStructure/",
-      },
-      {
-        text: "阅读指南",
-        link: "/guide/",
-      },
-    ],
+    // navbar: [
+    //   {
+    //     text: "题解",
+    //     link: "/subjects/string/3.html",
+    //   },
+    //   {
+    //     text: "数据结构",
+    //     link: "/dataStructure/",
+    //   },
+    //   {
+    //     text: "阅读指南",
+    //     link: "/guide/",
+    //   },
+    // ],
 
     // 侧边栏导航
     sidebar: Object.assign({}, principleConfig),
