@@ -39,6 +39,9 @@ export default defineUserConfig({
     // 侧边栏导航
     sidebar: Object.assign({}, principleConfig, webConfig),
     sidebarDepth: 0,
+    editLink: false,
+    lastUpdatedText: "上次更新",
+    contributorsText: "作者",
   }),
 
   // https://v2.vuepress.vuejs.org/zh/reference/plugin/register-components.html
