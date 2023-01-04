@@ -1,6 +1,6 @@
 # 原型和原型链
 
-![Untitled](./Untitled.png)
+![Untitled](./imgs/prototype/Untitled.png)
 
 ### 1、为什么需要原型及原型链？
 
@@ -79,7 +79,7 @@ console.log(p1.eat === p2.eat); // true
     - 什么是  **原型**  呢？每一个JavaScript对象(null除外)在创建的时候就会与之关联另一个  **对象**  ，这个对象就是我们所说的原型，每一个对象都会从原型"继承"属性。
     - 构造函数和实例原型之间的关系
         
-        ![Untitled](./Untitled1.png)
+        ![Untitled](./imgs/prototype/Untitled.png)
         
 - ****__proto__****
     
@@ -87,7 +87,7 @@ console.log(p1.eat === p2.eat); // true
     
     如 `person1.__proto__ = Person.prototype`
     
-    ![Untitled](./Untitled2.png)
+    ![Untitled](./imgs/prototype/Untitled2.png)
     
 - ****constructor****
     
@@ -99,7 +99,7 @@ console.log(p1.eat === p2.eat); // true
     
     如 `Person.prototype.constructor = Person`
     
-    ![Untitled](./Untitled3.png)
+    ![Untitled](./imgs/prototype/Untitled3.png)
     
     <aside>
     💡 绝大部分浏览器都支持这个非标准的方法访问原型，然而它并不存在于 Person.prototype 中，实际上，它是来自于 Object.prototype ，与其说是一个属性，不如说是一个 getter/setter，当使用 obj.**proto** 时，可以理解成返回了 Object.getPrototypeOf(obj)。
@@ -179,7 +179,7 @@ console.log(p1.eat === p2.eat); // true
     
     原型对象就是通过 Object 构造函数生成的，结合之前所讲，实例的 **proto** 指向构造函数的 prototype
     
-    ![Untitled](./Untitled4.png)
+    ![Untitled](./imgs/prototype/Untitled4.png)
     
 - ****原型链****
     
@@ -204,7 +204,7 @@ console.log(p1.eat === p2.eat); // true
     
     图中由相互关联的原型组成的链状结构就是原型链，也就是 蓝色 的这条线。
     
-    ![Untitled](./Untitled5.png)
+    ![Untitled](./imgs/prototype/Untitled5.png)
     
 
 ### 3、**构造函数**

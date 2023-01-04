@@ -17,7 +17,7 @@ const sideArr = [
       fullPath("deep-js/inherit"),
       fullPath("deep-js/this"),
       fullPath("deep-js/judge-data-type"),
-      fullPath("deep-js/prototype/index"),
+      fullPath("deep-js/prototype"),
     ],
   },
   {

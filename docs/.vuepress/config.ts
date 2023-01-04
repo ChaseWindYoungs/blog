@@ -3,6 +3,7 @@ import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
 import { getDirname, path } from "@vuepress/utils";
 import principleConfig from "../principle/config";
+import webConfig from "../web/config";
 const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/blog/",
@@ -18,13 +19,17 @@ export default defineUserConfig({
     // 顶部导航
     navbar: [
       {
+        text: "原理",
+        link: "/principle/deep-js/promise",
+      },
+      {
+        text: "Web体系",
+        link: "/web/browser/cache",
+      },
+      {
         text: "JS算法书",
         link: "https://chasewindyoungs.github.io/leetcode-book/",
       },
-      //   {
-      //     text: "数据结构",
-      //     link: "/dataStructure/",
-      //   },
       //   {
       //     text: "阅读指南",
       //     link: "/guide/",
@@ -32,7 +37,7 @@ export default defineUserConfig({
     ],
 
     // 侧边栏导航
-    sidebar: Object.assign({}, principleConfig),
+    sidebar: Object.assign({}, principleConfig, webConfig),
     sidebarDepth: 0,
   }),
 
