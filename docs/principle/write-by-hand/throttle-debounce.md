@@ -33,7 +33,7 @@
     // 两秒后打印 200
     ```
     
-    ![输出结果](./Untitled.png)
+    ![输出结果](./imgs/debounce-output.png)
    
     因为debounce返回的是一个函数，所以需要被调用，
     

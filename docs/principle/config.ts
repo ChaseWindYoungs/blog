@@ -46,10 +46,15 @@ const sideArr = [
     text: "代码手写",
     collapsible: true,
     children: [
-      fullPath("write-by-hand/function's func"),
+      fullPath("write-by-hand/function's-func"),
       fullPath("write-by-hand/clone"),
-      fullPath("write-by-hand/throttle&debounce/index"),
+      fullPath("write-by-hand/throttle-debounce"),
     ],
+  },
+  {
+    text: "工程化",
+    collapsible: true,
+    children: [fullPath("engineeringization/module-specification")],
   },
   // {
   //   text: "数组",
