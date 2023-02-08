@@ -108,3 +108,29 @@ Vue3
 11. `mounted`:访问/操作dom。
 12. `activated`:进入缓存组件，进入a的嵌套子组件(如果有的话)。
 13. 执行beforeRouteEnter回调函数next。
+
+
+### 父子组件生命周期顺序
+
+1. 挂载阶段
+
+该过程主要涉及 beforeCreate()、created()、beforeMount()、mounted() 4 个钩子函数。执行顺序为：
+
+父beforeCreate() -> 父created() -> 父beforeMount() -> 子beforeCreate() -> 子created() -> 子beforeMount() -> 子mounted() -> 父mounted()
+一定得等子组件挂载完毕后，父组件才能挂在完毕，所以父组件的 mounted 在最后。
+
+2. 子组件更新阶段
+
+该过程主要涉及 beforeUpdate()、updated() 2 个钩子函数。注意，当父子组件有数据传递时，才有这个更新阶段执行顺序的比较。执行顺序为：
+父beforeUpdate() -> 子beforeUpdate() -> 子updated() -> 父updated()
+
+3. 父组件更新过程
+
+父beforeUpdate() ->父updated()
+
+4. 销毁阶段
+
+该过程主要涉及beforeDestroy()、destroyed() 2 个钩子函数。执行顺序为：
+父beforeDestroy() -> 子beforeDestroy() -> 子destroyed() -> 父destroyed()
+
+5. Vue 父子组件生命周期钩子的执行顺序遵循：从外到内，再从内到外
