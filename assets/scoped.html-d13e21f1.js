@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-12f873dc","path":"/principle/vue2/scoped.html","title":"vue scoped原理","lang":"zh-CN","frontmatter":{"title":"vue scoped原理"},"headers":[],"git":{"updatedTime":1672383922000,"contributors":[{"name":"sirius.cheng","email":"sirius.cheng@yunlsp.com","commits":1}]},"filePathRelative":"principle/vue2/scoped.md"}');export{e as data};

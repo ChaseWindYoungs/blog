@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4ff42bdc","path":"/principle/vue2/vue2-source/array-update.html","title":"数组更新原理","lang":"zh-CN","frontmatter":{"title":"数组更新原理"},"headers":[],"git":{"updatedTime":1672810370000,"contributors":[{"name":"sirius.cheng","email":"sirius.cheng@yunlsp.com","commits":2}]},"filePathRelative":"principle/vue2/vue2-source/array-update.md"}');export{e as data};

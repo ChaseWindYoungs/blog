@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5e345ccf","path":"/principle/deep-js/inherit.html","title":"继承-JS多方式实现","lang":"zh-CN","frontmatter":{"title":"继承-JS多方式实现"},"headers":[],"git":{"updatedTime":1675323650000,"contributors":[{"name":"sirius.cheng","email":"sirius.cheng@yunlsp.com","commits":4}]},"filePathRelative":"principle/deep-js/inherit.md"}');export{e as data};

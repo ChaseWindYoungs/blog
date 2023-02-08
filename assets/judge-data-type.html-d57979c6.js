@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2a89e003","path":"/principle/deep-js/judge-data-type.html","title":"判断数据类型","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1672383922000,"contributors":[{"name":"sirius.cheng","email":"sirius.cheng@yunlsp.com","commits":1}]},"filePathRelative":"principle/deep-js/judge-data-type.md"}');export{e as data};

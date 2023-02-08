@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-30ff8f91","path":"/principle/write-by-hand/throttle-debounce.html","title":"防抖、截流","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1673346687000,"contributors":[{"name":"sirius.cheng","email":"sirius.cheng@yunlsp.com","commits":1}]},"filePathRelative":"principle/write-by-hand/throttle-debounce.md"}');export{e as data};
